@@ -18,4 +18,4 @@ jobs:
       - name: Build and Test 3.4
         run: sbt -v ++3.4 test
       - name: Build and Test 3.5
-        run: sbt -v ++3.5 test
+        run: sbt -v ++3.5.0-RC1 test
